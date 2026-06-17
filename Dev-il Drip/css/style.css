@@ -1,4 +1,9 @@
 body{
+    text-align: center;
     color: bisque;
     background-color: rgb(119, 8, 8);
+}
+
+footer{
+    font-size: 10px;
 }

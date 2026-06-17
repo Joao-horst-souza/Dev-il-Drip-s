@@ -13,18 +13,20 @@ body {
 }
 
 .navbar-brand {
-    background-color: bisque !important;
-    color: crimson !important;
+    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(81, 16, 16) !important;
+    color: bisque !important;
     padding: 5px 10px;
     border-radius: 4px;
 }
 
 .navbar-toggler{
-    background-color: bisque;
+    background-color: rgb(119, 8, 8);
 }
 
 .navbar-toggler-icon{
-    background-color: bisque;
+    background-color: rgb(119, 8, 8);
 }
 
 footer {

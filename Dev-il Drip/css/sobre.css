@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    color: bisque;
+    background-color: rgb(119, 8, 8);
+}
+
+.container {
+  display: flex;
+  gap: 30px; 
+}
+
+.container img {
+  border-top-right-radius: 6px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.text1 {
+  align-items: center ;
+  max-width: 500px;
+}
+
+.img{
+  border: 5px solid;
+}
+  
+  

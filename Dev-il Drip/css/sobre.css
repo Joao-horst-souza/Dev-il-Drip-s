@@ -23,5 +23,31 @@ body{
 .img{
   border: 5px solid;
 }
+
+.navbar {
+  background-color: rgb(81, 16, 16) !important;
+}
+
+.navbar .nav-link {
+  color: bisque !important;
+}
+
+.navbar-brand {
+  font-family: cursive;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(81, 16, 16) !important;
+  color: bisque !important;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.navbar-toggler{
+  background-color: rgb(119, 8, 8);
+}
+
+.navbar-toggler-icon{
+  background-color: rgb(119, 8, 8);
+}
+
   
   

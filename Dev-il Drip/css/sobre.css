@@ -15,8 +15,13 @@ body{
   border-radius: 10px;
 }
 
-.texto {
+.text1 {
+  align-items: center ;
   max-width: 500px;
+}
+
+.img{
+  border: 5px solid;
 }
   
   

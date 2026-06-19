@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    color: bisque;
+    background-color: rgb(119, 8, 8);
+}
+.navbar {
+    background-color: rgb(81, 16, 16) !important;
+}
+
+.navbar .nav-link {
+    color: bisque !important;
+}
+.offcanvas-title{
+    color:bisque;
+}
+.offcanvas-header{
+    background-color: rgb(119, 8, 8);
+}
+.offcanvas-body{
+    background-color: rgb(96, 16, 16); 
+}
+
+.navbar-brand {
+    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(81, 16, 16) !important;
+    color: bisque !important;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.navbar-toggler{
+    background-color: rgb(119, 8, 8);
+}
+
+.navbar-toggler-icon{
+    background-color: rgb(119, 8, 8);
+}
+
+.btn[btn-outline-success]{
+    background-color: bisque;
+}
+
+footer {
+    background-color: rgb(81, 16, 16);
+    color: bisque;
+}

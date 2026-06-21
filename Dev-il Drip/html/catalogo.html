@@ -10,15 +10,8 @@
 
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Limelight&family=Miltonian+Tattoo&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-  
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Limelight&family=Miltonian+Tattoo&family=Play:wght@400;700&display=swap" rel="stylesheet">
   
   </head>
   
@@ -74,75 +67,78 @@
     <main class="container mt-4">
       
       <section id="destaques" class="mb-5">
-  <h2>Destaques do nosso Catálogo</h2>
-  <p>Outfits que todo mal demônio usa hehe.</p>
+        <h2>Destaques do nosso Catálogo</h2>
+        <p>Outfits que todo mal demônio usa hehe.</p>
+ 
+      <div class="container">
 
-  <div class="container">
+         <div class="d-flex gap-2 mb-3 flex-wrap align-items-center">
+          <div class="busca-wrapper flex-grow-1">
+              <i class="bi bi-search"></i>
+              <input type="text" id="busca" placeholder="Buscar produto...">
 
-    <div class="d-flex gap-2 mb-3 flex-wrap align-items-center">
-      <div class="busca-wrapper flex-grow-1">
-        <i class="bi bi-search"></i>
-        <input type="text" id="busca" placeholder="Buscar produto...">
-      </div>
-      <select id="ordenar">
-        <option value="padrao">Ordenar</option>
-        <option value="menor">Menor preço</option>
-        <option value="maior">Maior preço</option>
-      </select>
-    </div>
+            </div>
+            <select id="ordenar">
 
-    <div id="filtros" class="d-flex gap-2 mb-4 flex-wrap">
-      <button class="chip ativo" data-categoria="todos">Todos</button>
-      <button class="chip" data-categoria="botas">Botas</button>
-      <button class="chip" data-categoria="saias">Saias</button>
-      <button class="chip" data-categoria="calcas">Calças</button>
-    </div>
+              <option value="padrao">Ordenar</option>
+              <option value="menor">Menor preço</option>
+              <option value="maior">Maior preço</option>
+            </select>
+          </div>
 
-    <div class="row g-4" id="grid">
+          <div id="filtros" class="d-flex gap-2 mb-4 flex-wrap">
 
-      <a href="./cadastro.html" class="col-md-4 card-produto" data-categoria="botas" data-preco="1000" data-nome="botas demon">
-        <div class="card h-100">
-          <img class="card-img-top" src="../../assests/BotasDemoniacas1.png" alt="Bota Demoniaca">
-          <div class="card-body">
-            <h1>Botas Demon</h1>
-            <text>As botas mais driposas!😈</text>
-            <span class="badge bg-warning text-dark">R$ 1.000,00 Aurélas</span>
+            <button class="chip ativo" data-categoria="todos">Todos</button>
+            <button class="chip" data-categoria="botas">Botas</button>
+            <button class="chip" data-categoria="saias">Saias</button>
+            <button class="chip" data-categoria="calcas">Calças</button>
+          </div>
+
+     
+        <div class="row g-4" id="grid">
+
+            <a href="./cadastro.html" class="col-md-4 card-produto" data-categoria="botas" data-preco="1000" data-nome="botas demon">
+              <div class="card h-100">
+                <img class="card-img-top" src="../../assests/BotasDemoniacas1.png" alt="Bota Demoniaca">
+
+                <div class="card-body">
+                  <h1>Botas Demon</h1>
+                  <text>As botas mais driposas!😈</text>
+                  <span class="badge bg-text-dark">R$ 1.000,00 Aurélas</span>
+                </div>
+
+              </div>
+            </a>
+
+            <a href="./cadastro.html" class="col-md-4 card-produto" data-categoria="saias" data-preco="1400" data-nome="saias demon">
+              <div class="card h-100">
+                <img class="card-img-top" src="../../assests/SaiaDemoniaca.png" alt="Saia Demoniaca">
+                <div class="card-body">
+                  <h1>Saias Demon</h1>
+                  <text>Saias cabulosas!😈</text>
+                  <span class="badge bg-text-dark">R$ 1.400,00 Aurélas</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="./cadastro.html" class="col-md-4 card-produto" data-categoria="calcas" data-preco="1067" data-nome="calça demon">
+              
+
+              <div class="card h-100">
+                <img class="card-img-top" src="../../assests/CalçaDemoniaca (2).png" alt="Calça Demoniaca">
+                <div class="card-body">
+                  <h1>Calça Demon</h1>
+                  <text>Calças nada angelicais!😈</text>
+                  <span class="badge bg-text-dark">R$ 1.067,00 Aurélas</span>
+                </div>
+              </div>
+            </a>
+
           </div>
         </div>
-      </a>
-
-      <a href="./cadastro.html" class="col-md-4 card-produto" data-categoria="saias" data-preco="1400" data-nome="saias demon">
-        <div class="card h-100">
-          <img class="card-img-top" src="../../assests/SaiaDemoniaca.png" alt="Saia Demoniaca">
-          <div class="card-body">
-            <h1>Saias Demon</h1>
-            <text>Saias cabulosas!😈</text>
-            <span class="badge bg-warning text-dark">R$ 1.400,00 Aurélas</span>
-          </div>
-        </div>
-      </a>
-
-      <a href="./cadastro.html" class="col-md-4 card-produto" data-categoria="calcas" data-preco="1067" data-nome="calça demon">
-        
-
-        <div class="card h-100">
-          <img class="card-img-top" src="../../assests/CalçaDemoniaca (2).png" alt="Calça Demoniaca">
-          <div class="card-body">
-            <h1>Calça Demon</h1>
-            <text>Calças nada angelicais!😈</text>
-            <span class="badge bg-warning text-dark">R$ 1.067,00 Aurélas</span>
-          </div>
-        </div>
-      </a>
-
-    </div>
-  </div>
-</section>
-
-      <section id="produtos" class="mb-5">
-        <h2>Nossos Produtos</h2>
-        <p>Insira a lista completa ou categorias do seu catálogo aqui.</p>
       </section>
+
+     
 
     </main>
 

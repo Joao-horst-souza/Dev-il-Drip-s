@@ -8,10 +8,10 @@ body{
 }
 
 .navbar .nav-link {
-    color: bisque !important;
+    color: rgb(14, 12, 10) !important;
 }
 .offcanvas-title{
-    color:bisque;
+    color:rgb(12, 10, 9)
 }
 .offcanvas-header{
     background-color: rgb(119, 8, 8);
@@ -138,9 +138,30 @@ text{
 .card-produto h1,
 .card-produto text,
 .card-produto span {
+
     text-decoration: none !important;
 }
-
+#ordenar{
+    color:black;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#filtros{
+    color:black;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.chip{
+    color:black
+}
+#busca::placeholder {
+    color: black;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 
 

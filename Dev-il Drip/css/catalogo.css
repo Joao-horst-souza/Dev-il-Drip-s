@@ -11,7 +11,10 @@ body{
     color: rgb(14, 12, 10) !important;
 }
 .offcanvas-title{
-    color:rgb(12, 10, 9)
+    color:bisque;
+    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 .offcanvas-header{
     background-color: rgb(119, 8, 8);
@@ -44,7 +47,7 @@ body{
 .card {
     border: 3px solid black;
     border-radius: 4%;
-    background-color: rgb(137, 118, 96);
+    background-color: rgb(222, 209, 196);
     overflow: hidden;
 }
 h1{
@@ -55,10 +58,10 @@ h2{
     font-family:"Miltonian Tattoo", serif;
     font-weight: 400;
     font-style: normal;;
-    color:black;
+    color:bisque;
 }
 p{
-    color:black;
+    color:bisque;
     font-family: "Alex Brush", cursive;
     font-weight: 400;
     font-style: normal;
@@ -117,7 +120,7 @@ text{
 }
 .chip.ativo {
     background-color: rgb(183, 156, 123);
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 .chip:hover {
@@ -142,33 +145,48 @@ text{
     text-decoration: none !important;
 }
 #ordenar{
-    color:black;
+    color:bisque;
     font-family: "Play", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 #filtros{
-    color:black;
+    color:bisque;
     font-family: "Play", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 .chip{
-    color:black
+    color:bisque;
 }
 #busca::placeholder {
-    color: black;
+    color: bisque;
     font-family: "Play", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-
-
-
-
-
 footer {
     background-color: rgb(81, 16, 16);
     color: bisque;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+}
+.card h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(222, 209, 196); 
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 15px;
 }

@@ -4,6 +4,8 @@ body {
     background-color: rgb(119, 8, 8);
 }
 
+
+
 .navbar {
     background-color: rgb(81, 16, 16) !important;
 }
@@ -29,6 +31,29 @@ body {
     background-color: rgb(119, 8, 8);
 }
 
+header{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+img{
+    width: 450px;
+    height: auto;
+    align-items: center;
+    object-fit: contain;
+    margin-top: -600px;
+    margin-left: 16px;
+    opacity: 0.3;
+}
+
+.hover-img {
+    transition: opacity 0.3s ease;
+  }
+  
+  .hover-img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
 .btn[btn-outline-success]{
     background-color: bisque;
 }
@@ -36,6 +61,6 @@ body {
 footer {
     background-color: rgb(81, 16, 16);
     color: bisque;
-    width: 1300px;
+    width: 100%;
     text-align: center;
 }

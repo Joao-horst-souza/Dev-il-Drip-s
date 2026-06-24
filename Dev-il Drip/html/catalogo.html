@@ -10,54 +10,38 @@
 
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Limelight&family=Miltonian+Tattoo&family=Play:wght@400;700&display=swap" rel="stylesheet">
-  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Limelight&family=Miltonian+Tattoo&family=Play:wght@400;700&display=swap" rel="stylesheet">
   </head>
   
   <body class="p-3 m-0 border-0 bd-example pt-5 mt-4">
 
     <header>
       <nav class="navbar navbar-dark bg-dark fixed-top">
-
         <div class="container-fluid">
-
           <a class="navbar-brand" href="#">Catálogo</a>
-
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           
           <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
-
               <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-
             </div>
 
             <div class="offcanvas-body">
-
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-
-
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                 </li>
-
                 <li class="nav-item">
                   <a class="nav-link" href="./cadastro.html">Cadastre-se aqui!</a>
                 </li>
-
                 <li class="nav-item">
-                    <a class="nav-link" href="./sobre.html">Sobre nós hehe</a>
-                  </li>
-
-
-                  </ul>
+                  <a class="nav-link" href="./sobre.html">Sobre nós hehe</a>
                 </li>
               </ul>
-    
             </div>
           </div>
         </div>
@@ -65,21 +49,17 @@
     </header>
 
     <main class="container mt-4">
-      
       <section id="destaques" class="mb-5">
         <h2>Destaques do nosso Catálogo</h2>
         <p>Outfits que todo mal demônio usa hehe.</p>
  
-      <div class="container">
-
-         <div class="d-flex gap-2 mb-3 flex-wrap align-items-center">
-          <div class="busca-wrapper flex-grow-1">
+        <div class="container">
+          <div class="d-flex gap-2 mb-3 flex-wrap align-items-center">
+            <div class="busca-wrapper flex-grow-1">
               <i class="bi bi-search"></i>
               <input type="text" id="busca" placeholder="Buscar produto...">
-
             </div>
             <select id="ordenar">
-
               <option value="padrao">Ordenar</option>
               <option value="menor">Menor preço</option>
               <option value="maior">Maior preço</option>
@@ -87,27 +67,24 @@
           </div>
 
           <div id="filtros" class="d-flex gap-2 mb-4 flex-wrap">
-
             <button class="chip ativo" data-categoria="todos">Todos</button>
             <button class="chip" data-categoria="botas">Botas</button>
             <button class="chip" data-categoria="saias">Saias</button>
             <button class="chip" data-categoria="calcas">Calças</button>
-            <button class="chip" data-categoria="casaco">Casaco</button>
+            <button class="chip" data-categoria="casacos">Casaco</button>
+            <button class="chip" data-categoria="camisas">Camisa</button>
           </div>
 
-     
-        <div class="row g-4" id="grid">
+          <div class="row g-4" id="grid">
 
             <a href="./cadastro.html" class="col-md-3 card-produto" data-categoria="botas" data-preco="1000" data-nome="botas demon">
               <div class="card h-100">
                 <img class="card-img-top" src="../../assests/BotaDemoniaca.png" alt="Bota Demoniaca">
-
                 <div class="card-body">
                   <h1>Botas Demon</h1>
-                  <text>As botas mais driposas!😈</text>
-                  <span class="badge bg-text-dark">R$ 1.000,00 Aurélas</span>
+                  <text>As botas mais driposas!</text>
+                  <span class="badge bg-text-dark">R$ 1.000,00 Auréloas 🪽</span>
                 </div>
-
               </div>
             </a>
 
@@ -116,46 +93,82 @@
                 <img class="card-img-top" src="../../assests/SaiaDemoniaca.png" alt="Saia Demoniaca">
                 <div class="card-body">
                   <h1>Saias Demon</h1>
-                  <text>Saias cabulosas!😈</text>
-                  <span class="badge bg-text-dark">R$ 1.400,00 Aurélas</span>
+                  <text>Saias cabulosas!</text>
+                  <span class="badge bg-text-dark">R$ 1.400,00 Auréloas 🪽</span>
                 </div>
               </div>
             </a>
 
-            <a href="./cadastro.html" class="col-md-3 card-produto" data-categoria="calcas" data-preco="1.067" data-nome="calça demon">
-              
+            <a href="./cadastro.html" class="col-md-3 card-produto" data-categoria="calcas" data-preco="1067" data-nome="calça demon">
               <div class="card h-100">
                 <img class="card-img-top" src="../../assests/CalcaDemoniaca.png" alt="Calça Demoniaca">
                 <div class="card-body">
                   <h1>Calça Demon</h1>
-                  <text>Calças nada angelicais!😈</text>
-                  <span class="badge bg-text-dark">R$ 1.067,00 Aurélas</span>
+                  <text>Calças nada angelicais!</text>
+                  <span class="badge bg-text-dark">R$ 1.067,00 Auréloas 🪽</span>
                 </div>
               </div>
             </a>
-            <a href="./cadastro.html" class="col-md-3 card-produto" data-categoria="casaco" data-preco="1.342" data-nome="calça demon">
-              
+
+            <a href="./cadastro.html" class="col-md-3 card-produto" data-categoria="casacos" data-preco="2300" data-nome="jacket demon">
               <div class="card h-100">
                 <img class="card-img-top" src="../../assests/CasacoDemon.png" alt="Jaqueta Demoniaca">
                 <div class="card-body">
                   <h1>Jacket Demon</h1>
                   <text>Jaqueta da Aura Total</text>
-                  <span class="badge bg-text-dark">R$ 1.067,00 Aurélas</span>
+                  <span class="badge bg-text-dark">R$ 2.300,00 Auréloas 🪽</span>
                 </div>
               </div>
             </a>
 
-      
-          </div>
-        </div>
+            <a href="./cadastro.html" class="col-md-3 card-produto" data-categoria="casacos" data-preco="6666" data-nome="casaco diablo">
+              <div class="card h-100">
+                <img class="card-img-top" src="../../assests/ManDemon.png" alt="Casaco Djabo">
+                <div class="card-body">
+                  <h1>Casaco Diablo</h1>
+                  <text>Tung tung sahur usaria.</text>
+                  <span class="badge bg-text-dark">R$ 6.666,00 Auréloas 🪽</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="./cadastro.html" class="col-md-3 card-produto" data-categoria="botas" data-preco="1342.67" data-nome="saias demon">
+              <div class="card h-100">
+                <img class="card-img-top" src="../../assests/BotasMan.png" alt="Botas Más">
+                <div class="card-body">
+                  <h1>Saias Demon</h1>
+                  <text>Saias cabulosas!😈</text>
+                  <span class="badge bg-text-dark">R$ 1.342,67 Auréloas 🪽</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="./cadastro.html" class="col-md-3 card-produto" data-categoria="calcas" data-preco="1050" data-nome="calça mídia">
+              <div class="card h-100">
+                <img class="card-img-top" src="../../assests/CalcasMan.png" alt="Calça Demon">
+                <div class="card-body">
+                  <h1>Calça Mídia</h1>
+                  <text>Calças Evil Colab Bailarina Capuccina</text>
+                  <span class="badge bg-text-dark">R$ 1.050,00 Auréloas 🪽</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="./cadastro.html" class="col-md-3 card-produto" data-categoria="camisas" data-preco="16000" data-nome="camisa satanais">
+              <div class="card h-100">
+                <img class="card-img-top" src="../../assests/CamisaMan.png" alt="Camisa Demoniaca">
+                <div class="card-body">
+                  <h1>Camisa Satánais</h1>
+                  <text>Camisa ungida pelo sangue do pai!</text>
+                  <span class="badge bg-text-dark">R$ 16.000,00 Auréloas 🪽</span>
+                </div>
+              </div>
+            </a>
+
+          </div> </div>
       </section>
-
-     
-
     </main>
 
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="../js/catalogo.js"></script>
-  
   </body>
 </html>

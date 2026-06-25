@@ -33,6 +33,7 @@ body {
 
 header{
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 30px;
 }
 
 img{
@@ -49,10 +50,43 @@ img{
     transition: opacity 0.3s ease;
   }
   
-  .hover-img:hover {
+.hover-img:hover {
     opacity: 0.5;
     cursor: pointer;
   }
+
+  .botaoDoCatalogo{
+    display: inline-block;
+    padding: 15px 35px;
+
+    background: linear-gradient(135deg, rgb(81,16,16), rgb(120,20,20));
+    color: bisque;
+
+    text-decoration: none;
+    font-family: cursive, 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+
+    border: 2px solid bisque;
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    transition: all .3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,.4);
+}
+
+.botaoDoCatalogo:hover{
+    background: bisque;
+    color: crimson;
+
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 12px 30px rgba(220,20,60,.4);
+}
+
+.botaoDoCatalogo:active{
+    transform: scale(.97);
+}
   
 .btn[btn-outline-success]{
     background-color: bisque;

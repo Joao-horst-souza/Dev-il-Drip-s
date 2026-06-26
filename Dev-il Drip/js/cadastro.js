@@ -40,15 +40,20 @@ form.addEventListener("submit", function(event) {
     }
 
     if(valido == true){
+
+        localStorage.setItem("cadastrado", "true");
+        
         mensagem.innerHTML = `
             <div class="alert alert-success mt-3">
-                Cadastro realizado com sucesso!
+            Cadastro realizado com sucesso! <br><br>
+            Agora você já pode acessar o catálogo.
             </div>
         `;
+        
     }else{
         mensagem.innerHTML = `
             <div class="alert alert-danger mt-3">
-                Corrija os campos destacados.
+                Algum dos campos foi prenchido de forma incorreta.
             </div>
         `;
     }

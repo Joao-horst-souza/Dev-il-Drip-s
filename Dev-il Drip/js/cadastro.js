@@ -49,7 +49,7 @@ form.addEventListener("submit", function(event) {
             Agora você já pode acessar o catálogo.
             </div>
         `;
-        
+        location.href="catalogo.html";
     }else{
         mensagem.innerHTML = `
             <div class="alert alert-danger mt-3">
